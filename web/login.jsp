@@ -18,6 +18,7 @@
     <c:if test="${not empty error}">
         <p style="color: red;">${error}</p>
     </c:if>
+        <label>hello</label>
     <c:if test="${not empty success}">
         <p style="color: green;">${success}</p>
     </c:if>
